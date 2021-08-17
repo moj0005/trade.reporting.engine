@@ -7,7 +7,7 @@
 - Once checkout this project, Application.java file should run
 - Kindly refer to trade.reporting.engine.png to have a look at the DB structure
 - Upload the xml file, post request to http://localhost:8080/api/v1/events, form-data should be selected, key should be file, and value should be the file being chosen from the local directory to process.
-- Get request to http://localhost:8080/api/v1/events?fileName=<name of the file being uploaded>, this will tell whether it satisfies pre-configured criteria or not.
+- Get request to http://localhost:8080/api/v1/events?fileName=<name_of_the_file_being_uploaded>, this will tell whether it satisfies pre-configured criteria or not.
 - trade.reporting.engine.png file is available in the base directory to have a look at the database design.
 - Update database username and password in application.properties file. Make sure to have TradeReportingEngine defined datbase in mysql, as defined in application.properties file.
 - No need to create tables, tables will automatically be created once the application is started. Also the tables will be dropped once the application is shutdown.
